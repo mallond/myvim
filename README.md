@@ -5,6 +5,30 @@ My Vim configuration
 
 (From Danielmissler)[https://danielmiessler.com/study/vim/]
 
+## SETTING .vimrc 
+```
+~/.vimrc
+
+" Use jk instead of the <ESC> so much easier
+inoremap jk <ESC>
+
+set spell
+set ruler
+set number
+set tabstop=2
+
+filetype plugin indent on
+syntax on
+set encoding=utf-8
+set clipboard=unnamedplus
+
+```
+
+## PLUGIN MANAGMENT VIM 8.x
+Simply drop your plugins in
+```
+~/.vim/pack/pluginfoldername/ start/pluginname
+```
 
 ## VERBS
 ```
