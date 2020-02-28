@@ -6,10 +6,10 @@ My Vim configuration
 (From Danielmissler)[https://danielmiessler.com/study/vim/]
 
 ## VERBS
-d: delete
-c: change
-y: yank (copy)
-v: visually select (V for line vs. character)
+d: delete  
+c: change. 
+y: yank (copy). 
+v: visually select (V for line vs. character) 
 
 ## NOUNS
 w: word
